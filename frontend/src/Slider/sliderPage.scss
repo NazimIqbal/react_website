@@ -1,0 +1,30 @@
+/* src/Slider/SliderPage.css */
+
+.slider-container {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: #000; /* Optional: Adds a background color */
+  }
+  
+  .slider-carousel {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slider-carousel .carousel-item {
+    height: 100%;
+  }
+  
+  .slider-carousel img {
+    object-fit: cover;
+    height: 85vh;
+  }
+  

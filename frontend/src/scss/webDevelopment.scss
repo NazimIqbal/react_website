@@ -1,0 +1,112 @@
+.ser-img1 {
+  background-image: url('./../assets/images/web-img1.webp');
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 60px;
+  position: relative; /* Make it a positioned element */
+}
+
+.text-container {
+  position: absolute; /* Position text over the image */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust position to be centered */
+  text-align: center; /* Center text */
+}
+
+.h-3{
+  color: white;
+  margin-bottom: 20px;
+}
+
+.text {
+  color: rgb(250, 238, 238);
+  text-align: left;
+}
+
+.web-text {
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+  margin-bottom: 40px;
+}
+
+//  left Line css
+.web-text::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: black;
+}
+
+.web-develop {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.underline {
+  position: relative;
+  display: inline-block;
+}
+
+.underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 4px;
+  background-color: aqua;
+}
+
+.dev-underline {
+  position: relative;
+  display: inline-block;
+}
+.dev-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 4px;
+  background-color: rgb(116, 218, 231);
+}
+
+
+
+
+@media (max-width: 768px) {
+  .text {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+// .ser-img1 {
+//   background-image: url('./../assets/images/service1.webp');
+//   height: 70vh;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+//   margin-top: 60px;
+// }
+
+// .text{
+//   color: red;
+//   align-content: center;
+// }

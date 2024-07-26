@@ -1,0 +1,132 @@
+/* footer section start */
+* {
+    box-sizing: border-box;
+  }
+  
+  .footer-container {
+    // background: #f7f7f7;
+    padding: 3rem 1rem;
+    // background-color: rgb(207, 224, 218);
+    background-image: url('https://arena.km.ua/wp-content/uploads/3538533.jpg');
+  }
+  
+  body {
+    font-size: 14px;
+    background: #fff;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .logo-footer {
+    max-width: 200px;
+    height: 100px;
+  }
+  
+  .footer-about p {
+    color: #777;
+  }
+  
+  .ul-class{
+    padding-left: 0px !important;
+  }
+
+  .social-links h2,
+  .useful-link h2,
+  .address h2 {
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .social-links img,
+  .useful-link img,
+  .address img {
+    padding-bottom: 15px;
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #777;
+  }
+  
+  .social-icons a {
+    color: #777;
+  }
+  
+  .social-icons a:hover {
+    color: #000;
+  }
+  
+  .social-icons a i {
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 0.4rem 1rem;
+    border-radius: 3px;
+    color: #82074a;
+    font-size: 16px;
+    margin-right: 12px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .use-links {
+    line-height: 32px;
+  }
+  
+  .use-links li i {
+    font-size: 14px;
+    padding-right: 8px;
+    color: #898989;
+  }
+  
+  .use-links li a {
+    color: #777;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .use-links li a:hover {
+    color: #000;
+  }
+  
+  .address-links li a {
+    color: #777;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .address-links li i {
+    font-size: 16px;
+    padding-right: 8px;
+    color: #82074a;
+  }
+  
+  .address-links .address1 {
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+  }
+  
+  .address-links {
+    line-height: 32px;
+    color: #777;
+  }
+  
+  .copy-right-sec {
+    padding: 1rem;
+    background: rgb(205, 233, 245);
+    color: black;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* footer section end */
+  

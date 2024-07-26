@@ -1,0 +1,11 @@
+.card-group .card {
+    margin-right: 100px;
+    border: 2px solid black; /* Ensure the border is visible */
+    border-radius: 20px;
+}
+  
+  /* Remove the right margin for the last card */
+  .card-group .card:last-child {
+    margin-right: 0;
+  }
+  

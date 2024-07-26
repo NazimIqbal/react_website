@@ -1,0 +1,27 @@
+.construction {
+    background-image: url('./../../assets/images/Construction/building-crane-img2.jpg');
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
+    position: relative; /* Make it a positioned element */
+  }
+
+
+  .image-container {
+    width: 100%; /* Ensure the container takes up the full width */
+    margin-top: 60px;
+    position: relative; /* Make it a positioned element */
+}
+
+.construction {
+    width: 100%; /* Ensures the image takes up the full width of its container */
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.filter-text{
+  color: black;
+}

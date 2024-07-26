@@ -1,0 +1,104 @@
+.cc {
+    margin-right: 5rem !important;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+
+  .toggle{
+    margin-right: 50px;
+    border: none !important;
+    padding: 0;
+    margin: 0;
+    background: none !important;
+    box-shadow: none !important;
+  }
+
+  .close-btn{
+    font-size: 30px;
+  }
+
+
+  @media screen and (min-width: 200px) and (max-width: 750px) {
+    .navbar-brand {
+      margin-left: 10px;
+    }
+    .toggle{
+      margin-right: 10px;
+    }
+    // .dropbtn{
+    //   margin-left: 0px;
+    // }
+  }
+
+  .nav-padding{
+    margin-left: 20px !important;
+  }
+  .text-color{
+    color: black !important;
+    font-weight: 500 !important;
+  }
+  .text-color:hover{
+    background-color: #d7e4d7;
+    color: red;
+  }
+
+// Services dropdown css start
+.dropbtn {
+  padding: 6px;
+  padding-left: 0px;
+  margin-top: 2px;
+  // margin-left: 5px;
+  cursor: pointer;
+  border: none;
+  // ftdfggf
+  background-color: transparent;
+  display: inline-flex;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  // margin-left: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+.dropdown-content a {
+  display: block;
+  color: #524a4a;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.dropdown-content a:hover {
+  background: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background: #d7e4d7;
+}
+.dropdown-content.show {
+  display: block;
+  overflow: hidden;
+}
+
+
+// Services dropdown css end
